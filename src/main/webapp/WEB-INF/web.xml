@@ -1,0 +1,25 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+    <param-name>DRIVER</param-name>
+    <param-value>com.mysql.jdbc.Driver</param-value>
+  </context-param>
+  <context-param>
+    <param-name>URL</param-name>
+    <param-value>jdbc:mysql://localhost:3306/techtalk</param-value>
+  </context-param>
+  <context-param>
+    <param-name>USER</param-name>
+    <param-value>root</param-value>
+  </context-param>
+  <context-param>
+    <param-name>PASSWORD</param-name>
+    <param-value>captain</param-value>
+  </context-param>
+  
+ 
+</web-app>
